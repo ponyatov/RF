@@ -8,4 +8,4 @@ description = "Rust FORTH"
 
 [[bin]]
 name = "FORTH"
-path = "src/main.rs"
+path = "src/FORTH.rs"
