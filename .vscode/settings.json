@@ -36,11 +36,10 @@
     // // "rust-analyzer.cargo.target"    : "thumbv7em-none-eabihf",
     // // "rust-analyzer.cargo.target"    : "wasm32-unknown-unknown",
     // // "rust-analyzer.cargo.target"    : "aarch64-unknown-linux-gnu",
-    // "[rust]": {
-    //     "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    //     "editor.formatOnSave"    :  true
-    //     // "diffEditor.ignoreTrimWhitespace": false
-    // },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave"    :  true
+    },
 
     // MinGW/MSYS2
     "terminal.integrated.defaultProfile.windows": "UCRT64",
