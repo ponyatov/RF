@@ -19,7 +19,7 @@
             "label": "cargo: run",
             "type": "shell",
             "command": "cargo",
-            "args": ["run", "lib/${workspaceFolderBasename}.ini"],
+            "args": ["run", "lib/FORTH.ini"],
             "options": { "cwd": "${workspaceFolder}" },
             "problemMatcher": ["$rustc"],
             "presentation": {
