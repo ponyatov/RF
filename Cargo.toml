@@ -5,3 +5,7 @@ edition     = "2024"
 description = "Rust FORTH"
 
 [dependencies]
+
+[[bin]]
+name = "FORTH"
+path = "src/main.rs"
